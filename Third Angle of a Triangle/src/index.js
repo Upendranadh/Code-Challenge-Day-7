@@ -5,11 +5,12 @@
 // Note: only positive integers will be tested.
 // otherAngle(30, 60) return -> 90
 
-
 // Write the function to find the otherAngle obtained.
 function otherAngle(a, b) {
-       //your code here
-
+  //your code here
+  if (a > 0 && b > 0) {
+    return 180 - (a + b);
   }
+}
 
 //Use SpecRunner to check the Test Cases.
